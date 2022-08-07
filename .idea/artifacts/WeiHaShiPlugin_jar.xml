@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WeiHaShiPlugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WeiHaShiPlugin_jar</output-path>
+    <root id="archive" name="WeiHaShiPlugin.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="WeiHaShiPlugin" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsoup-1.11.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
